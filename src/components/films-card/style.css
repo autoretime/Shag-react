@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    
+}
+.App{
+    padding: 0 15%;
+    background-image: url(https://krot.info/uploads/posts/2021-01/1611842822_17-p-zadnii-fon-dlya-logo-23.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper{
+    color:#fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;    
+}
+
+.b{
+    margin-top: 10px;
+}
+
+.btns{
+    justify-content: space-around;
+}
